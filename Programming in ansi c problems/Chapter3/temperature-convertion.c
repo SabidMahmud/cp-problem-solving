@@ -8,9 +8,8 @@ int main()
 {
     //type definition
     typedef float REAL ;
-    REAL fahrenheit, celsius ;
-
-    fahrenheit = F_LOW;
+    REAL fahrenheit, celsius;
+    
      scanf("%f", &fahrenheit);
 
     printf("Fahrenheit Celsius\n\n");
