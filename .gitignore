@@ -1,4 +1,5 @@
 
 *.o
 *.exe
-terget/ rough/
+rough/
+rough/1.c
