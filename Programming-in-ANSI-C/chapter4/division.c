@@ -15,6 +15,5 @@ int main(void)
         }
     else
         printf("Division not possible.\n");
-
-    return 0;
+   return 0; 
 }
