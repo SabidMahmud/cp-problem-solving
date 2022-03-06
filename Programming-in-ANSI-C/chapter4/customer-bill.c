@@ -4,23 +4,21 @@
 */
 
 #include <stdio.h>
-
 int main(void)
 {
     int CustomerID, calls;
     int CALL_MAX=100;
     float COST_MIN=250;
     float cost;
-
     printf("Customer ID : ");
-        scanf("%-7d", &CustomerID);
+        scanf("%6d", &CustomerID);
     printf("Total Calls Made : ");
         scanf("%d", &calls);
     
     if(calls>=0 && calls<CALL_MAX)
     {
         printf("\n********** CUSTOMER BILL **********\n\n");
-        printf("=> Customer ID       #%d\n", CustomerID);
+        printf("=> Customer ID        #%d\n", CustomerID);
         printf("=> Total Calls Made        %d \n", calls);
         printf("------------------------------------\n");
         printf("=> Total Cost           Rs. %.2f\n\n", COST_MIN);        
@@ -29,11 +27,10 @@ int main(void)
     {
         cost = COST_MIN+ 1.25*(calls-CALL_MAX);
         printf("\n********** CUSTOMER BILL **********\n\n");
-        printf("=> Customer ID       #%d\n", CustomerID);
+        printf("=> Customer ID        #%d\n", CustomerID);
         printf("=> Total Calls Made        %d \n", calls);
         printf("------------------------------------\n");
         printf("=> Total Cost          Rs. %.2f\n\n", cost);
     }
-return 0;
-        
+return 0;       
 }
