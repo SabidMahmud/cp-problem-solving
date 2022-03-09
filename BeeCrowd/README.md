@@ -41,3 +41,29 @@ The input file contains a text (employee's first name), and two double precision
 Print the seller's total salary, according to the given example.
 
 <hr>
+
+### Name: [Simple Calculate](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/simple-calculate.c)
+#### Description:
+In this problem, the task is to read a code of a product 1, the number of units of product 1, the price for one unit of product 1, the code of a product 2, the number of units of product 2 and the price for one unit of product 2. After this, calculate and show the amount to be paid.
+
+#### Input
+The input file contains two lines of data. In each line there will be 3 values: two integers and a floating value with 2 digits after the decimal point.
+
+#### Output
+The output file must be a message like the following example where "Valor a pagar" means Value to Pay. Remember the space after ":" and after "R$" symbol. The value must be presented with 2 digits after the point.
+
+<hr>
+
+### Name: [Sphere](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/#)
+#### Description:
+Make a program that calculates and shows the volume of a sphere being provided the value of its radius (R) . `The formula to calculate the volume is: (4/3) * pi * R3`. Consider (assign) for `pi` the value `3.14159`.
+
+> Tip: Use `(4/3.0)` or `(4.0/3)` in your formula, because some languages (including C++) assume that the division's result between two integers is another integer. :)
+
+#### Input
+The input contains a value of floating point (double precision).
+
+#### Output
+The output must be a message "VOLUME" like the following example with a space before and after the equal signal. The value must be presented with 3 digits after the decimal point.
+
+***
