@@ -2,7 +2,7 @@
 *.o
 *.exe
 rough/
-rough/1.c
 outline.txt
 Programming-in-ANSI-C/chapter4/n
-BeeCrowd/aftercompile
+BeeCrowd/beginner/temp/
+~/tempcompile
