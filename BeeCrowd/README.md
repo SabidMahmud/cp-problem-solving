@@ -113,10 +113,10 @@ Print the greatest of these three values followed by a space and the message **â
 Calculate a car's average consumption being provided the total distance traveled (in *Km*) and the spent fuel total (in *liters*).
 
 ##### Input
-The input file contains two values: one integer value $X$ representing the total distance (in *Km*) and the second one is a floating point number $Y$  representing the spent fuel total, with a digit after the decimal point.
+The input file contains two values: one integer value ***X*** representing the total distance (in ***Km***) and the second one is a floating point number ***Y***  representing the spent fuel total, with a digit after the decimal point.
 
 ##### Output
-Present a value that represents the average consumption of a car with 3 digits after the decimal point, followed by the message "$km/l$".
+Present a value that represents the average consumption of a car with 3 digits after the decimal point, followed by the message "***km/l***".
 
 | Input Sample | Output Sample  |
 |--------------|----------------|
@@ -125,4 +125,19 @@ Present a value that represents the average consumption of a car with 3 digits a
 |4554<br>464.6 | 9.802 *km/l*   |
 
 ****
+### Name: [Distance Between Two Points](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/distance-between-points.c)
+##### Description:
+Read the four values corresponding to the `x` and `y` axes of two points in the plane, p<sub>1</sub> (x<sub>1</sub> , y<sub>1</sub>) and p<sub>2</sub> (x<sub>2</sub>, y<sub>2</sub>) and calculate the distance between them, showing four decimal places after the comma, according to the formula:
 
+Distance = ![distance](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Csqrt%7B%28x_2-x_1%29%5E2&plus;%28y_2-y_1%29%5E2%7D)
+
+##### Input
+The input file contains two lines of data. The first one contains two double values: x<sub>1</sub> y<sub>1</sub> and the second one also contains two double values with one digit after the decimal point: x<sub>2</sub> y<sub>2</sub>.
+
+##### Output
+Calculate and print the distance value using the provided formula, with 4 digits after the decimal point.
+
+| Input Sample      | Output Sample |
+|---------------    |---------------|
+|1.0 7.0<br>5.0 9.0 | 4.4721        |
+|-2.5 0.4<br>12.1 7.3|  16.1484     |
