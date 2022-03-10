@@ -86,7 +86,7 @@ The output file must contain `5` lines of data. Each line corresponds to one of 
 
 | Input Sample      | Output Sample |
 | ----------- | ----------- |
-| 3.0 4.0 5.2      | TRIANGULO: 7.800<br>CIRCULO: 84.949<br>QUADRADO: 16.000<br>RETANGULO: 12.000 |
+| 3.0 4.0 5.2      | TRIANGULO: 7.800<br>CIRCULO: 84.949<br>TRAPEZIO: 18.200<br>QUADRADO: 16.000<br>RETANGULO: 12.000 |
 
 **********
 
