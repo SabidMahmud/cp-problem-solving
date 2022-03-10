@@ -93,9 +93,8 @@ The output file must contain `5` lines of data. Each line corresponds to one of 
 ### Name: [The Greatest](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/the-greatest.c)
 ##### Description:
 Make a program that reads 3 integer values and present the greatest one followed by the message **"eh o maior"**. Use the following formula:
-$$
-MaiorAB = \frac{a+b+|a-b|}{2}
-$$
+![MaiorAB](https://latex.codecogs.com/gif.latex?MaiorAB%20%3D%20%5Cfrac%7Ba&plus;b&plus;%7Ca-b%7C%7D%7B2%7D)
+
 ##### Input
 The input file contains 3 integer values.
 
