@@ -120,9 +120,9 @@ Present a value that represents the average consumption of a car with 3 digits a
 
 | Input Sample | Output Sample  |
 |--------------|----------------|
-| 500<br>35.0  | 14.286 $km/l$  |
-| 2254<br>124.4| 18.119 $km/l$  |
-|4554<br>464.6 | 9.802 $km/l$   |
+| 500<br>35.0  | 14.286 *km/l*  |
+| 2254<br>124.4| 18.119 *km/l*  |
+|4554<br>464.6 | 9.802 *km/l*   |
 
 ****
 
