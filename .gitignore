@@ -1,8 +1,8 @@
 
 *.o
+*.out
 *.exe
 rough/
 outline.txt
 Programming-in-ANSI-C/chapter4/n
-BeeCrowd/beginner/temp/
-~/tempcompile
+
