@@ -91,14 +91,14 @@ The output file must contain `5` lines of data. Each line corresponds to one of 
 **********
 
 ### Name: [The Greatest](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/the-greatest.c)
-##### Description:
+#### Description:
 Make a program that reads 3 integer values and present the greatest one followed by the message **"eh o maior"**. Use the following formula:
 ![MaiorAB](https://latex.codecogs.com/gif.latex?MaiorAB%20%3D%20%5Cfrac%7Ba&plus;b&plus;%7Ca-b%7C%7D%7B2%7D)
 
-##### Input
+#### Input
 The input file contains 3 integer values.
 
-##### Output
+#### Output
 Print the greatest of these three values followed by a space and the message **“eh o maior”**.
 
 
@@ -109,13 +109,13 @@ Print the greatest of these three values followed by a space and the message **�
 
 *****
 ### Name: [Consumption](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/consumption.c)
-##### Description:
+#### Description:
 Calculate a car's average consumption being provided the total distance traveled (in *Km*) and the spent fuel total (in *liters*).
 
-##### Input
+#### Input
 The input file contains two values: one integer value ***X*** representing the total distance (in ***Km***) and the second one is a floating point number ***Y***  representing the spent fuel total, with a digit after the decimal point.
 
-##### Output
+#### Output
 Present a value that represents the average consumption of a car with 3 digits after the decimal point, followed by the message "***km/l***".
 
 | Input Sample | Output Sample  |
@@ -126,15 +126,15 @@ Present a value that represents the average consumption of a car with 3 digits a
 
 ****
 ### Name: [Distance Between Two Points](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/distance-between-points.c)
-##### Description:
+#### Description:
 Read the four values corresponding to the `x` and `y` axes of two points in the plane, p<sub>1</sub> (x<sub>1</sub> , y<sub>1</sub>) and p<sub>2</sub> (x<sub>2</sub>, y<sub>2</sub>) and calculate the distance between them, showing four decimal places after the comma, according to the formula:
 
 Distance = ![distance](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Csqrt%7B%28x_2-x_1%29%5E2&plus;%28y_2-y_1%29%5E2%7D)
 
-##### Input
+#### Input
 The input file contains two lines of data. The first one contains two double values: x<sub>1</sub> y<sub>1</sub> and the second one also contains two double values with one digit after the decimal point: x<sub>2</sub> y<sub>2</sub>.
 
-##### Output
+#### Output
 Calculate and print the distance value using the provided formula, with 4 digits after the decimal point.
 
 | Input Sample       | Output Sample |
@@ -145,17 +145,17 @@ Calculate and print the distance value using the provided formula, with 4 digits
 *********
 
 ### Name: [Distance](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/distance.c)
-##### Description:
+#### Description:
 Two cars (X and Y) leave in the same direction. The car `X` leaves with a constant speed of `60 km/h` and the car `Y` leaves with a constant speed of `90 km/h`.
 
 In one hour (`60` minutes) the car `Y` can get a distance of 30 kilometers from the `X` car, in other words, it can get away one kilometer for each `2` minutes.
 
 Read the distance (`in km`) and calculate how long it takes (`in minutes`) for the car `Y` to take this distance in relation to the other car.
 
-##### Input
+#### Input
 The input file contains 1 integer value.
 
-##### Output
+#### Output
 Print the necessary time followed by the message "`minutos`" that means minutes in Portuguese.
 
 | Input Sample  | Output Sample |
@@ -166,13 +166,13 @@ Print the necessary time followed by the message "`minutos`" that means minutes 
 ***********
 
 ### Name: [Fuel Spent](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/fuel-spent.c)
-##### Description:
+#### Description:
 Little John wants to calculate and show the amount of spent fuel liters on a trip, using a car that does **`12 Km/L`**. For this, he would like you to help him through a simple program. To perform the calculation, you have to read spent time (in ***hours***) and the same average speed (***km/h***). In this way, you can get distance and then, calculate how many ***liters*** would be needed. Show the value with three decimal places after the point.
 
-##### Input:
+#### Input:
 The input file contains two integers. The first one is the spent time in the trip (in ***hours***). The second one is the average speed during the trip (in ***Km/h***).
 
-##### Output:
+#### Output:
 Print how many ***liters*** would be needed to do this trip, with three digits after the decimal point.
 
 | Input Sample  |	Output Sample |
