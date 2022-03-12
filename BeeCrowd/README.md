@@ -195,3 +195,22 @@ Print the read number and the minimum quantity of each necessary banknotes in Po
 |Input Sample| 	Output Sample   |
 |------------|------------------|
 | 576        |  576 <br> 5 nota(s) de R$ 100,00<br>1 nota(s) de R$ 50,00<br>1 nota(s) de R$ 20,00<br>0 nota(s) de R$ 10,00<br>1 nota(s) de R$ 5,00<br>0 nota(s) de R$ 2,00<br>1 nota(s) de R$ 1,00 |
+
+**************
+### Name: [Time Conversion](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/time-conversion.c)
+#### Description:
+Read an integer value, which is the duration in *seconds* of a certain event in a factory, and inform it expressed in **hours:minutes:seconds**.
+
+#### Input:
+The input file contains an integer ***N***.
+
+#### Output:
+Print the read time in the input file (`seconds`) converted in `hours:minutes:seconds` like the following example.
+
+| Input Sample  |	Output Sample |
+|---------------|---------------|
+| 556           |   0:9:16      |
+| 1             |   0:0:1       |
+| 140153        |   38:55:53    |
+
+**************
