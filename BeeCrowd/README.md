@@ -137,7 +137,30 @@ The input file contains two lines of data. The first one contains two double val
 ##### Output
 Calculate and print the distance value using the provided formula, with 4 digits after the decimal point.
 
-| Input Sample      | Output Sample |
-|---------------    |---------------|
-|1.0 7.0<br>5.0 9.0 | 4.4721        |
-|-2.5 0.4<br>12.1 7.3|  16.1484     |
+| Input Sample       | Output Sample |
+|---------------     |---------------|
+|1.0 7.0<br>5.0 9.0  | 4.4721        |
+|-2.5 0.4<br>12.1 7.3|  16.1484      |
+
+*********
+
+### Name: [Distance](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/distance.c)
+##### Description:
+Two cars (X and Y) leave in the same direction. The car `X` leaves with a constant speed of `60 km/h` and the car `Y` leaves with a constant speed of `90 km/h`.
+
+In one hour (`60` minutes) the car `Y` can get a distance of 30 kilometers from the `X` car, in other words, it can get away one kilometer for each `2` minutes.
+
+Read the distance (`in km`) and calculate how long it takes (`in minutes`) for the car `Y` to take this distance in relation to the other car.
+
+##### Input
+The input file contains 1 integer value.
+
+##### Output
+Print the necessary time followed by the message "`minutos`" that means minutes in Portuguese.
+
+| Input Sample  | Output Sample |
+|---------------|---------------|
+|  30           | 60 minutos    |
+| 110           | 220 minutos   |
+| 7             | 14 minutos    |
+***********
