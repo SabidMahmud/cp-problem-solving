@@ -1,10 +1,11 @@
 #include <stdio.h>
- 
+#include <math.h>
 int main() 
 { 
-    double A,R, n=3.14159;
+    double A,R;
+ const double PI=3.14159;
     scanf("%lf", &R);
-    A= n*R*R;
+    A= PI*pow(R,2);
     printf("A=%.4f\n", A); 
     return 0;
 }
