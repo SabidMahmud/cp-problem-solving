@@ -346,3 +346,20 @@ The output must be a message like following example.
 |100.00 | `Intervalo (75,100]`    |
 |-25.02 | `Fora de intervalo`|
 ***********
+
+### Name: [Snack](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/interval.c)
+#### Description:
+Using the following table, write a program that reads a ***code*** and the ***amount of an item***. After, print the value to pay. This is a very simple program with the only intention of practice of selection commands.
+![Chart](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1038_en.png)
+#### Input
+The input file contains two integer numbers `X` and `Y`. `X` is the product code and `Y` is the quantity of this item according to the above table.
+
+#### Output
+The output must be a message "`Total: R$` " followed by the total value to be paid, with 2 digits after the decimal point.
+
+| Input Sample  |	Output Sample |
+|---------------|---------------|
+|3 2  | `Total: R$ 10.00` |
+|4 3  | `Total: R$ 6.00`  |
+|2 3  | `Total: R$ 13.50`|
+*************************
