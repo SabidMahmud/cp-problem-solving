@@ -276,3 +276,35 @@ Print the minimum quantity of banknotes and coins necessary to change the initia
 |---------------|---------------|
 |  576.73       | NOTAS:<br>5 nota(s) de R$ 100.00<br>1 nota(s) de R$ 50.00<br>1 nota(s) de R$ 20.00<br>0 nota(s) de R$ 10.00<br>1 nota(s) de R$ 5.00<br>0 nota(s) de R$ 2.00<br>MOEDAS:<br>1 moeda(s) de R$ 1.00<br>1 moeda(s) de R$ 0.50<br>0 moeda(s) de R$ 0.25<br>2 moeda(s) de R$ 0.10<br>0 moeda(s) de R$ 0.05<br>3 moeda(s) de R$ 0.01|
 ***
+
+### Name: [Selection Test 1](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/selection-test-1.c)
+#### Description:
+Read 4 integer values `A, B, C and D`. Then if `B` is greater than `C` and `D` is greater than `A` and if the sum of `C` and `D` is greater than the sum of `A` and `B` and if `C` and `D` were positives values and if `A` is *even*, write the message “`Valores aceitos`” (Accepted values). Otherwise, write the message “`Valores nao aceitos`” (Values not accepted).
+
+#### Input
+Four integer numbers `A, B, C` and `D`.
+
+#### Output
+Show the corresponding message after the validation of the values​​.
+
+|Input Sample  |	Output Sample |
+|--------------|----------------|
+|5 6 7 8      | Valores nao aceitos |
+| 2 3 2 6     | Valores aceitos     |
+****************
+
+### Name: [Bhaskara's Formula](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/bhaskara's-formula.c)
+#### Description:
+Read 3 floating-point numbers. After, print the roots of *bhaskara’s formula*. If it's impossible to calculate the roots because a division by zero or a square root of a negative number, presents the message “`Impossivel calcular`”.
+
+#### Input
+Read 3 floating-point numbers (double) `A`, `B` and `C`.
+
+#### Output
+Print the result with 5 digits after the decimal point or the message if it is impossible to calculate.
+
+|Input Samples	|  Output Samples |
+|--------------|------------------|
+|10.0 20.1 5.1 | R1 = -0.29788<br>R2 = -1.71212|
+|0.0 20.0 5.0  |  Impossivel calcular |
+**********
