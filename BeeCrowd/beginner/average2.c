@@ -3,8 +3,12 @@
 int main()
 {
   double A,B, C;
+  float wA, wB, wC;
+  wA = 2;
+  wB = 3;
+  wC = 5;
   scanf("%lf %lf %lf", &A, &B, &C);
-  double avg = ( (A*2) + (B*3) + (C*5) ) / (2+3+5);
+  double avg = ( (A*wA) + (B*wB) + (C*wC) ) / (wA+wB+wC);
   printf("MEDIA = %.1lf\n", avg);
   return 0;
 }
