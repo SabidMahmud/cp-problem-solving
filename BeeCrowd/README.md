@@ -428,3 +428,69 @@ Present the output as requested above.
 | 7 21 -14 |-14<br>7<br>21<br><br>7<br>21<br>-14|
 | -14 21 7  | -14<br>7<br>21<br><br>-14<br>21<br>7  |
 *************
+
+### Name: [Triangle](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/triangle.c)
+BeeCrowd problem : [1043](https://www.beecrowd.com.br/judge/en/problems/view/1043)
+#### Description:
+Read three point floating values (`A`, `B` and `C`) and verify if is possible to make a triangle with them. If it is possible, calculate the perimeter of the triangle and print the message:
+
+**`Perimetro = XX.X`**
+
+If it is not possible, calculate the area of the trapezium which basis `A` and `B` and `C` as height, and print the message:
+
+**`Area = XX.X`**
+#### Input
+The input file has tree floating point numbers.
+#### Output
+Print the result with one digit after the decimal point.
+
+|Input Sample |	Output Sample |
+|-----|--------|
+|6.0 4.0 2.0|Area = 10.0|
+|6.0 4.0 2.1|Perimetro = 12.1|
+*************
+
+### Name: [Multiples](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/multiples.c)
+BeeCrowd [#1044](https://www.beecrowd.com.br/judge/en/problems/view/1044)
+#### Description:
+Read two nteger values (`A` and `B`). After, the program should print the message "**`Sao Multiplos`**" (are multiples) or "**`Nao sao Multiplos`**" (aren’t multiples), corresponding to the read values.
+
+#### Input
+The input has two integer numbers.
+
+#### Output
+Print the relative message to the input as stated above.
+
+|Input Sample	| Output Sample |
+|-------------|---------------|
+|6 24   | Sao Multiplos |
+| 6 25  | Nao sao Multiplos |
+*****************
+
+### Name: [Triangle Types](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/triangle-types.c)
+BeeCrowd [#1045](https://www.beecrowd.com.br/judge/en/problems/view/1045)
+#### Description:
+Read 3 double numbers (`A`, `B` and `C`) representing the sides of a triangle and *arrange them in decreasing order*, so that the side A is the biggest of the three sides. Next, determine the type of triangle that they can make, based on the following cases always writing an appropriate message:
+* if **`A ≥ B + C`**, write the message: **`NAO FORMA TRIANGULO`**
+* if **`A2 = B2 + C2`**, write the message: **`TRIANGULO RETANGULO`**
+* if **`A2 > B2 + C2`**, write the message: **`TRIANGULO OBTUSANGULO`**
+* if **`A2 < B2 + C2`**, write the message: **`TRIANGULO ACUTANGULO`**
+* if the three sides are the same size, write the message: **`TRIANGULO EQUILATERO`**
+* if only two sides are the same and the third one is different, write the message: **`TRIANGULO ISOSCELES`**
+
+#### Input
+The input contains three double numbers, `A (0 < A)` , `B (0 < B)` and `C (0 < C)`.
+
+#### Output
+Print all the classifications of the triangle presented in the input.
+
+| Input Samples |	Output Samples |
+|---------------|----------------|
+|7.0 5.0 7.0    |TRIANGULO ACUTANGULO<br>TRIANGULO ISOSCELES|
+|6.0 6.0 10.0   |TRIANGULO OBTUSANGULO<br>TRIANGULO ISOSCELES|
+|6.0 6.0 6.0    |TRIANGULO ACUTANGULO<br>TRIANGULO EQUILATERO|
+|5.0 7.0 2.0    |NAO FORMA TRIANGULO|
+|6.0 8.0 10.0   |TRIANGULO RETANGULO|
+*************************************
+
+
