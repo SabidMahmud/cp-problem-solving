@@ -365,3 +365,66 @@ The output must be a message "`Total: R$` " followed by the total value to be pa
 |4 3  | `Total: R$ 6.00`  |
 |2 3  | `Total: R$ 13.50`|
 *************************
+
+### Name: [Average 3](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/average3.c)
+BeeCrowd problem : [1040](https://www.beecrowd.com.br/judge/en/problems/view/1040)
+#### Description:
+
+Read four numbers (`N1, N2, N3, N4`), which one with 1 digit after the decimal point, corresponding to 4 scores obtained by a student. Calculate the average with weights `2`, `3`, `4` e `1` respectively, for these 4 scores and print the message "`Media:` " (Average), followed by the calculated result. If the average was `7.0 or more`, print the message "`Aluno aprovado.`" (Approved Student). If the average was `less than 5.0`, print the message: "`Aluno reprovado.`" (Reproved Student). If the average was `between 5.0 and 6.9`, including these, the program must print the message "`Aluno em exame.`" (In exam student).
+
+In case of exam, read one more score. Print the message "`Nota do exame: `" (Exam score) followed by the typed score. Recalculate the average (sum the exam score with the previous calculated average and divide by `2`) and print the message “`Aluno aprovado.`” (Approved student) in case of average `5.0 or more`) or "`Aluno reprovado.`" (Reproved student) in case of average `4.9 or less`. For these 2 cases (approved or reproved after the exam) print the message "`Media final: `" (Final average) followed by the final average for this student in the last line.
+
+#### Input
+The input contains four floating point numbers that represent the students' grades.
+
+#### Output
+Print all the answers with one digit after the decimal point.
+
+| Input Sample  |	Output Sample   |
+|---------------|-----------------|
+|2.0 4.0 7.5 8.0<br>6.4 | Media: 5.4<br>Aluno em exame.<br>Nota do exame: 6.4<br>Aluno aprovado.<br>Media final: 5.9|
+|2.0 6.5 4.0 9.0  | Media: 4.8<br>Aluno reprovado.|
+|9.0 4.0 8.5 9.0  |Media: 7.3<br>Aluno aprovado.|
+|9.0 4.0 8.5 9.0|Media: 7.3<br>Aluno aprovado.|
+************************************************
+
+### Name: [Coordinates of a Point](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/coordinates-of-point.c)
+BeeCrowd problem : [1041](https://www.beecrowd.com.br/judge/en/problems/view/1041)
+#### Description:
+
+Write an algorithm that reads two floating values (**x** and **y**), which should represent the coordinates of a point in a plane. Next, determine which quadrant the point belongs, or if you are at one of the Cartesian axes or the origin (***x = y = 0***).
+
+![Coordinates](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1041.png)
+
+>If the point is at the origin, write the message "**`Origem`**".
+>If the point is at ***X*** axis write "**`Eixo X`**", else if the point is at ***Y*** axis write "**`Eixo Y`**".
+
+#### Input
+The input contains the coordinates of a point.
+
+#### Output
+The output should display the quadrant in which the point is.
+
+| Input Sample  |	Output Sample |
+|---|---|
+| 4.5 -2.2      |Q4     |
+|0.1 0.1    |Q1 |
+|0.0 0.0  |Origem|
+*****************************
+
+### Name: [Simple Sort](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/simple-sort.c)
+BeeCrowd problem : [1042](https://www.beecrowd.com.br/judge/en/problems/view/1042)
+#### Description:
+Read three integers and sort them in ***ascending*** order. After, print these values in *ascending order*, *a blank line* and then *the values in the sequence as they were readed*.
+
+#### Input
+The input contains three integer numbers.
+
+#### Output
+Present the output as requested above.
+
+| Input Sample  |	Output Sample |
+|-------|--------|
+| 7 21 -14 |-14<br>7<br>21<br><br>7<br>21<br>-14|
+| -14 21 7  | -14<br>7<br>21<br><br>-14<br>21<br>7  |
+*************
