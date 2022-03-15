@@ -549,9 +549,9 @@ The input contains only a floating-point number, with 2 digits after the decimal
 #### Output
 Print **3** messages followed by the corresponding numbers (see example) informing `the new salary`, `the among of money earned` and `the percentual obtained by the employee`. 
 Note:
-**`Novo salario:`  means "New Salary"**
-**`Reajuste ganho:` means "Money earned"**
-**`Em percentual:` means "In percentage"**
+**`Novo salario:`  means "New Salary"**   
+**`Reajuste ganho:` means "Money earned"**   
+**`Em percentual:` means "In percentage"**   
 
 | Input Sample |	Output Sample |
 |--------|-----------------|
