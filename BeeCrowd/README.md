@@ -547,22 +547,39 @@ Read the employee's salary, calculate and print the new employee's salary, as we
 #### Input
 The input contains only a floating-point number, with 2 digits after the decimal point.
 #### Output
-Print **3** messages followed by the corresponding numbers (see example) informing `the new salary`, `the among of money earned` and `the percentual obtained by the employee`. 
-<<<<<<< HEAD
-Note:
-**`Novo salario:`  means "New Salary"**  
-**`Reajuste ganho:` means "Money earned"**  
-**`Em percentual:` means "In percentage"**  
-=======
+Print **3** messages followed by the corresponding numbers (see example) informing `the new salary`, `the among of money earned` and `the percentual obtained by the employee`.   
+
 Note:   
 **`Novo salario:`  means "New Salary"**   
 **`Reajuste ganho:` means "Money earned"**   
 **`Em percentual:` means "In percentage"**   
->>>>>>> 87938e19499fb7f27c673d50ad5bc77b28d3439d
-
 | Input Sample |	Output Sample |
 |--------|-----------------|
 |400.00  |Novo salario: 460.00<br>Reajuste ganho: 60.00<br>Em percentual: 15 %|
 |800.01 |Novo salario: 880.01<br>Reajuste ganho: 80.00<br>Em percentual: 10 %|
 |2000.00|Novo salario: 2140.00<br>Reajuste ganho: 140.00<br>Em percentual: 7 %|
 *************
+
+### Name: [DDD](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/ddd.c)
+BeeCrowd [#1050](https://www.beecrowd.com.br/judge/en/problems/view/1050)
+#### Description:
+
+Read an integer number that is the code number for phone dialing. Then, print the destination according to the following table:
+
+![DDD list](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1050.png)
+
+
+If the input number isn’t found in the above table, the output must be:    
+***DDD nao cadastrado***
+That means “DDD not found” in Portuguese language.
+
+#### Input
+The input consists in a unique integer number.
+
+#### Output
+Print the city name corresponding to the input DDD. Print DDD nao cadastrado if doesn't exist corresponding DDD to the typed number.
+
+| Input Sample  |	Output Sample |
+|---------------|---------------|
+|11   | Sao Paulo |
+*******************
