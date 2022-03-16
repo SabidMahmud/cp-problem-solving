@@ -588,9 +588,8 @@ Print the city name corresponding to the input DDD. Print DDD nao cadastrado if 
 BeeCrowd [#1049](https://www.beecrowd.com.br/judge/en/problems/view/1049)
 #### Description:
 
-In this problem, your job is to read three Portuguese words. These words define an animal according to the table below, from left to right. After, print the chosen animal defined by these three words.
+In this problem, your job is to read three Portuguese words. These words define an animal according to the table below, from left to right. After, print the chosen animal defined by these three words.    
 ![animal](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1049_b.png)
-
 #### Input
 The input contains 3 words, one by line, that will be used to identify the animal, according to the above table, with all letters in lowercase.
 
@@ -627,3 +626,64 @@ Print the message "R$" followed by a blank space and the total tax to be payed, 
 |1701.12|Isento|
 |4520.00|R$ 355.60|
 ******************
+
+### Name: [Month](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/month.c)
+BeeCrowd [#1052](https://www.beecrowd.com.br/judge/en/problems/view/1052)
+#### Description:
+Read an integer number between 1 and 12, including. Corresponding to this number, you must print the month of the year, in english, with the first letter in uppercase.
+
+#### Input
+The input contains only an integer number.
+
+#### Output
+Print the name of the month according to the input number, with the first letter in uppercase.
+
+| Input Sample  |	Output Sample |
+|---------------|---------------|
+|4|April|
+*********************************
+
+### Name: [Even Number](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/even-number.c)
+BeeCrowd [#1059](https://www.beecrowd.com.br/judge/en/problems/view/1059)
+#### Description:
+Write a program that prints all even numbers between 1 and 100, including them if it is the case.
+
+#### Input
+In this extremely simple problem there is no input.
+
+#### Output
+Print all even numbers between 1 and 100, including them, one by row.
+
+| Input Sample  |	Output Sample |
+|--------------|----------------|
+||2<br>4<br>6<br>...<br>100|
+**************************
+
+### Name: [Positive Numbers](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/positive-numbers.c)
+BeeCrowd [#1060](https://www.beecrowd.com.br/judge/en/problems/view/1060)
+#### Description:
+Write a program that reads 6 numbers. These numbers will only be positive or negative (disregard null values). Print the total number of positive numbers.
+
+#### Input
+Six numbers, positive and/or negative.
+
+#### Output
+Print a message with the total number of positive numbers.
+*************
+
+### Name: [Positives and Average](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/positives-and-average.c)
+BeeCrowd [#1064](https://www.beecrowd.com.br/judge/en/problems/view/1064)
+#### Description:
+Read 6 values that can be floating point numbers. After, print how many of them were positive. In the next line, print the average of all positive values typed, with one digit after the decimal point.
+
+#### Input
+The input consist in 6 numbers that can be integer or floating point values. At least one number will be positive.
+
+#### Output
+The first output value is the amount of positive numbers. The next line should show the average of the positive values ​typed.
+
+| Input Sample  |	Output Sample |
+|--------------|-----------------|
+|7<br>-5<br>6<br>-3.4<br>4.6<br>12|4 valores positivos<br>7.4|
+*********************
+
