@@ -583,3 +583,47 @@ Print the city name corresponding to the input DDD. Print DDD nao cadastrado if 
 |---------------|---------------|
 |11   | Sao Paulo |
 *******************
+
+### Name: [Animal](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/animal.c)
+BeeCrowd [#1049](https://www.beecrowd.com.br/judge/en/problems/view/1049)
+#### Description:
+
+In this problem, your job is to read three Portuguese words. These words define an animal according to the table below, from left to right. After, print the chosen animal defined by these three words.
+![animal](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1049_b.png)
+
+#### Input
+The input contains 3 words, one by line, that will be used to identify the animal, according to the above table, with all letters in lowercase.
+
+#### Output
+Print the animal name according to the given input.
+
+| Input Samples	|  Output Samples |
+|--------------|-------------------|
+|vertebrado<br>mamifero<br>onivoro| homem |
+|vertebrado<br>ave<br>carnivoro|aguia|
+|invertebrado<br>anelideo<br>onivoro|minhoca|
+*****************************************
+
+### Name: [Taxes](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/taxes.c)
+BeeCrowd [#1051](https://www.beecrowd.com.br/judge/en/problems/view/1051)
+#### Description:
+In an imaginary country called Lisarb, all the people are very happy to pay their taxes because they know that doesn’t exist corrupt politicians and the taxes are used to benefit the population, without any misappropriation. The currency of this country is Rombus, whose symbol is `R$`.
+
+Read a value with 2 digits after the decimal point, equivalent to the salary of a Lisarb inhabitant. Then print the due value that this person must pay of taxes, according to the table below.
+
+![Taxes](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1051_en.png)
+
+Remember, if the salary is R$ 3,002.00 for example, the rate of 8% is only over R$ 1,000.00, because the salary from R$ 0.00 to R$ 2,000.00 is tax free. In the follow example, the total rate is 8% over R$ 1000.00 + 18% over R$ 2.00, resulting in R$ 80.36 at all. The answer must be printed with 2 digits after the decimal point.
+
+Input
+The input contains only a float-point number, with 2 digits after the decimal point.
+
+Output
+Print the message "R$" followed by a blank space and the total tax to be payed, with two digits after the decimal point. If the value is up to 2000, print the message "**`Isento`**".
+
+| Input Samples |	Outputs Samples |
+|--------------|------------------|
+|3002.00|R$ 80.36|
+|1701.12|Isento|
+|4520.00|R$ 355.60|
+******************
