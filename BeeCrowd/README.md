@@ -548,10 +548,17 @@ Read the employee's salary, calculate and print the new employee's salary, as we
 The input contains only a floating-point number, with 2 digits after the decimal point.
 #### Output
 Print **3** messages followed by the corresponding numbers (see example) informing `the new salary`, `the among of money earned` and `the percentual obtained by the employee`. 
+<<<<<<< HEAD
 Note:
 **`Novo salario:`  means "New Salary"**  
 **`Reajuste ganho:` means "Money earned"**  
 **`Em percentual:` means "In percentage"**  
+=======
+Note:   
+**`Novo salario:`  means "New Salary"**   
+**`Reajuste ganho:` means "Money earned"**   
+**`Em percentual:` means "In percentage"**   
+>>>>>>> 87938e19499fb7f27c673d50ad5bc77b28d3439d
 
 | Input Sample |	Output Sample |
 |--------|-----------------|
