@@ -10,7 +10,7 @@ int main() {
   int time;
   time = ((f_hour * MIN) + f_minute - ((i_hour * MIN) + i_minute));
   if (time <= 0) {
-    time = time + (24 * 60);
+    time = time + (24 * MIN);
   }
   printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", (time / MIN), (time % MIN));
   return 0;
