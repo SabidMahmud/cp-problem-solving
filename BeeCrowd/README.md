@@ -687,3 +687,68 @@ The first output value is the amount of positive numbers. The next line should s
 |7<br>-5<br>6<br>-3.4<br>4.6<br>12|4 valores positivos<br>7.4|
 *********************
 
+### Name: [Even between five numbers](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/even-between-five.c)
+BeeCrowd [#1065](https://www.beecrowd.com.br/judge/en/problems/view/1065)
+#### Description:
+Make a program that reads five integer values. Count how many of these values ​​are even and  print this information like the following example.
+
+#### Input
+The input will be 5 integer values.
+
+#### Output
+Print a message like the following example with all letters in lowercase, indicating how many even numbers were typed.
+
+| Input Sample | 	Output Sample|
+|---------------|---------------|
+|7<br>-5<br>6<br>-4<br>12 |3 valores pares|
+***********************
+### Name: [Even, Odd, Positive and Negative](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/even-odd-positive-neg.c)
+BeeCrowd [#1066](https://www.beecrowd.com.br/judge/en/problems/view/1066)
+#### Description:
+Make a program that reads five integer values. Count how many   of these values are even, odd, positive and negative. Print these information like following example.
+
+#### Input
+The input will be 5 integer values.
+
+#### Output
+Print a message like the following example with all letters in lowercase, indicating how many of these values ​​are even, odd, positive and negative.
+
+| Input Sample  |	Output Sample |
+|---------------|---------------|
+|-5<br>0<br>-3<br>-4<br>12|3 valor(es) par(es)<br>2 valor(es) impar(es)<br>1 valor(es) positivo(s)<br>3 valor(es) negativo(s)|
+*************
+
+### Name: [Odd Numbers](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/odd-numbers.c)
+BeeCrowd [#1067](https://www.beecrowd.com.br/judge/en/problems/view/1067)
+#### Description:
+
+Read an integer value `X` (`1 <= X <= 1000`).  Then print the odd numbers from `1` to `X`, each one in a line, including `X` if is the case.
+
+#### Input
+The input will be an integer value.
+
+#### Output
+Print all odd values between 1 and X, including X if is the case.
+
+|Input Sample |	Output Sample|
+|--------------|-------------|
+|8|1<br>3<br>5<br>7|
+******
+
+### Name: [Six Odd Numbers](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/six-odd-numbers.c)
+BeeCrowd [#1070](https://www.beecrowd.com.br/judge/en/problems/view/1070)
+#### Description:
+
+Read an integer value `X` and print the 6 consecutive odd numbers from `X`, a value per line, including `X` if it is the case.
+
+#### Input
+The input will be a positive integer value.
+
+#### Output
+The output will be a sequence of six odd numbers.
+
+| Input Sample  |	Output Sample |
+|-------|----------|
+|8|9<br>11<br>13<br>15<br>17<br>19|
+********************
+
