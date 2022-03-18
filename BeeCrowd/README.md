@@ -817,11 +817,28 @@ Read an integer value `N`. After, read these `N` values and print a message for 
 The first line of input is an integer `N` (`N < 10000`), that indicates the total number of test cases. Each case is a integer number `X` (`-107 < X <107`)..
 
 #### Output
-For each test case, print a corresponding message, according to the below example. All messages must be printed in uppercase letters and always will have one space between two words in the same line.
+For each test case, print a corresponding message, according to the below example. All messages must be printed in uppercase letters ad always will have one space between two words in the same line.
 
 |Input Sample |	Output Sample |
 |---------------|------------|
 |4<br>-5<br>0<br>3<br>-4|ODD NEGATIVE<br>NULL<br>ODD POSITIVE<br>EVEN NEGATIVE|
 ***********************
+
+### Name: [Remaining 2](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/remaining2.c)
+BeeCrowd [#1075](https://www.beecrowd.com.br/judge/en/problems/view/1075)
+#### Description:
+Read an integer `N`. Print all numbers between `1` and `10000`, which divided by `N` will give the rest = `2`.
+
+#### Input
+The input is an integer `N` (`N < 10000`)
+
+#### Output
+Print all numbers between `1` and `10000`, which divided by `n` will give the rest = `2`, *one per line*.
+
+|Input Sample |	Output Sample|
+|-----------|------------------|
+|13 |2<br>15<br>28<br>41<br>...|
+***************
+
 
 
