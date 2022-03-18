@@ -840,5 +840,25 @@ Print all numbers between `1` and `10000`, which divided by `n` will give the re
 |13 |2<br>15<br>28<br>41<br>...|
 ***************
 
+### Name: [Multiplication Table](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/multiplication-table.c)
+BeeCrowd [#1078](https://www.beecrowd.com.br/judge/en/problems/view/1078)
+#### Description:
+
+Read an integer N (2 < N < 1000). Print the multiplication table of N.
+1 x N = N   
+2 x N = 2N    
+...     
+10 x N = 10N  
+
+#### Input
+The input is an integer N (1 < N < 1000).
+
+#### Output
+Print the multiplication table of N., like the following example.
+
+|Input Sample |	Output Sample|
+|------------|---------------|
+|140 | 1 x 140 = 140<br>2 x 140 = 280<br>3 x 140 = 420<br>..........<br>10 x 140 = 1400|
+*******************
 
 
