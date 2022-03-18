@@ -790,5 +790,23 @@ For each test case, print how many numbers are in and how many values are out of
 |4<br>14<br>123<br>10<br>-25<br>|2 in<br>2 out|
 **********************
 
+### Name: [Even Square](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/even-square.c)
+BeeCrowd [#1073](https://www.beecrowd.com.br/judge/en/problems/view/1073)
+#### Description:
+Read an integer ***N***. Print the square of each one of the even values from 1 to N including ***N*** if it is the case.
+
+#### Input
+The input contains an integer ***N*** (**`5 < N < 2000`**).
+
+#### Output
+Print the square of each one of the even values from 1 to N, as the given example.
+
+>Be carefull! Some language automaticly print 1e+006 instead 1000000. Please configure your program to print the correct format setting the output precision.
+
+|Input Sample |	Output Sample|
+|------------|----------------|
+|6 |2^2 = 4<br>4^2 = 16<br>6^2 = 36|
+***************************
+ 
 
 
