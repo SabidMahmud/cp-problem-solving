@@ -5,5 +5,6 @@
 rough/
 outline.txt
 Programming-in-ANSI-C/chapter4/n
-
+CMakeLists.txt
+cmake-build-debug
 test.c

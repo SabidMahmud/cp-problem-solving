@@ -861,4 +861,42 @@ Print the multiplication table of N., like the following example.
 |140 | 1 x 140 = 140<br>2 x 140 = 280<br>3 x 140 = 420<br>..........<br>10 x 140 = 1400|
 *******************
 
+### Name: [Weighted Averages](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/weighted-average.c)
+BeeCrowd [#1079](https://www.beecrowd.com.br/judge/en/problems/view/1079)
+#### Description:
+
+Read an integer `N`, which represents the number of following test cases. Each test case consists of three floating-point numbers, each one with one digit after the decimal point. Print the weighted average for each of these sets of three numbers, considering that the first number has weight `2`, the second number has weight `3` and the third number has weight `5`.
+
+#### Input
+The input file contains an integer number N in the first line. Each N following line is a test case with three float-point numbers, each one with one digit after the decimal point.
+
+#### Output
+For each test case, print the weighted average according with below example.
+
+|Input Sample |	Output Sample|
+|------------|---------------|
+|3<br>6.5 4.3 6.2<br>5.1 4.2 8.1<br>8.0 9.0 10.0|5.7<br>6.3<br>9.3|
+*****************
+
+### Name: [Experiments](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/experiments.c)
+BeeCrowd [#1094](https://www.beecrowd.com.br/judge/en/problems/view/1094)
+#### Description:
+
+Maria has just started as graduate student in a medical school and she's needing your help to organize a laboratory experiment which she is responsible about. She wants to know, at the end of the year, how many animals were used in this laboratory and the percentage of each type of animal is used at all.
+
+This laboratory uses in particular three types of animals: frogs, rats and rabbits. To obtain this information, it knows exactly the number of experiments that were performed, the type and quantity of each animal is used in each experiment.
+
+#### Input
+The first line of input contains an integer `N` indicating the number of test cases that follows. Each test case contains an integer Amount (`1 ≤ Amount ≤ 15`) which represents the amount of animal used and a character Type ('`C`', '`R`' or '`S`'), indicating the type of animal:
+- C: Coelho (rabbit in portuguese)
+- R: Rato (rat  in portuguese)
+- S: Sapo (frog in portuguese)
+
+#### Output
+Print the total of animals used, the total of each type of animal and the percentual of each one in relation of the total of animals used. The percentual must be printed with 2 digits after the decimal point.
+
+|Input Sample |	Output Sample|
+|------------|---------------|
+|10<br>10 C<br>6 R<br>15 S<br>5 C<br>14 R<br>9 C<br>6 R<br>8 S<br>5 C<br>14 R|Total: 92 cobaias<br>Total de coelhos: 29<br>Total de ratos: 40<br>Total de sapos: 23<br>Percentual de coelhos: 31.52 %<br>Percentual de ratos: 43.48 %<br>Percentual de sapos: 25.00 %|
+************************
 
