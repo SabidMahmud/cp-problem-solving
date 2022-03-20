@@ -947,3 +947,19 @@ Print the sequence like the example below.
 |-------------|--------------|
 ||I=1 J=7<br>I=1 J=6<br>I=1 J=5<br>I=3 J=9<br>I=3 J=8<br>I=3 J=7<br>...<br>I=9 J=15<br>I=9 J=14<br>I=9 J=13|
 *************
+
+### Name: [Sequence IJ 8](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/sequenceIJ4.c)
+BeeCrowd [#1098](https://www.beecrowd.com.br/judge/en/problems/view/1098)
+#### Description:
+Make a program that prints the sequence like the following exemple.
+
+#### Input
+This problem doesn't have input.
+
+#### Output
+Print the sequence like the example below.
+
+|Input Sample |	Output Sample|
+|-------------|--------------|
+||I=0 J=1<br>I=0 J=2<br>I=0 J=3<br>I=0.2 J=1.2<br>I=0.2 J=2.2<br>I=0.2 J=3.2<br>.....<br>I=2 J=?<br>I=2 J=?<br>I=2 J=?|
+*************
