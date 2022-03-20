@@ -900,3 +900,50 @@ Print the total of animals used, the total of each type of animal and the percen
 |10<br>10 C<br>6 R<br>15 S<br>5 C<br>14 R<br>9 C<br>6 R<br>8 S<br>5 C<br>14 R|Total: 92 cobaias<br>Total de coelhos: 29<br>Total de ratos: 40<br>Total de sapos: 23<br>Percentual de coelhos: 31.52 %<br>Percentual de ratos: 43.48 %<br>Percentual de sapos: 25.00 %|
 ************************
 
+### Name: [Sequence IJ 1](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/sequqnceIJ1.c)
+BeeCrowd [#1095](https://www.beecrowd.com.br/judge/en/problems/view/1095)
+#### Description:
+Make a program that prints the sequence like the following example.
+
+#### Input
+This problem doesn't have input.
+
+#### Output
+Print the sequence like the example below.
+
+|Input Sample |	Output Sample|
+|--------|------------|
+||I=1 J=60<br>I=4 J=55<br>I=7 J=50<br>...<br>I=? J=0|
+*******
+
+### Name: [Sequence IJ 2](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/sequenceIJ2.c)
+BeeCrowd [#1096](https://www.beecrowd.com.br/judge/en/problems/view/1096)
+#### Description:
+Make a program that prints the sequence like the following exemple.
+
+#### Input
+This problem doesn't have input.
+
+#### Output
+Print the sequence like the example below.
+
+|Input Sample |	Output Sample|
+|-------------|--------------|
+||I=1 J=7<br>I=1 J=6<br>I=1 J=5<br>I=3 J=7<br>I=3 J=6<br>I=3 J=5<br>...<br>I=9 J=7<br>I=9 J=6<br>I=9 J=5|
+*************
+
+### Name: [Sequence IJ 3](https://github.com/SabidMahmud/programming-problem-solving/blob/main/BeeCrowd/beginner/sequenceIJ3.c)
+BeeCrowd [#1097](https://www.beecrowd.com.br/judge/en/problems/view/1097)
+#### Description:
+Make a program that prints the sequence like the following exemple.
+
+#### Input
+This problem doesn't have input.
+
+#### Output
+Print the sequence like the example below.
+
+|Input Sample |	Output Sample|
+|-------------|--------------|
+||I=1 J=7<br>I=1 J=6<br>I=1 J=5<br>I=3 J=9<br>I=3 J=8<br>I=3 J=7<br>...<br>I=9 J=15<br>I=9 J=14<br>I=9 J=13|
+*************
