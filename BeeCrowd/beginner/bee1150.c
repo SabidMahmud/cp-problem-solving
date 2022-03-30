@@ -1,21 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int main(void) {
-  int X, Z, sum = X, n = 1, i;
+
+  int X, Z, sum = 0;
   scanf("%d", &X);
 read_z:
   scanf("%d", &Z);
-  if (Z <= X) {
-    goto read_z;
-  } else {
-    while (i == 2) {
-      sum += (X + 1);
+
+  int n = 0;
+
+  for (int i = 0;; i++) {
+    if (Z <= X) {
+      goto read_z;
+    } else if (sum <= Z) {
+      sum += (X + i);
       n += 1;
-      if (sum > Z) {
-        n += 1;
-        break;
-      }
-      i++;
+    } else {
+      break;
     }
   }
   printf("%d\n", n);
