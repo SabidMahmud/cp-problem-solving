@@ -1,5 +1,4 @@
 n = 3.14159
-R = input("Enter R: ")
-R = int(R)
+R = float(input("Enter R: "))
 A = n * R * R
-print("A=",A)
+print("A=%.4f" %A)
